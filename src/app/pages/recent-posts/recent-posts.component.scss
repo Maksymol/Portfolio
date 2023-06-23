@@ -1,3 +1,26 @@
-.container-fluid{
+.container{
+  display: flex;
+}
+.rp-header__menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+// .rp-header-menu__link{
+
+// }
+.main{
   background: #EDF7FA;
+}
+
+.menu-description{
+display: flex;
+justify-content: space-around;
+}
+// .menu-description__item{
+
+// }
+.rp-title{
+  display: flex;
+  justify-content: center;
 }
