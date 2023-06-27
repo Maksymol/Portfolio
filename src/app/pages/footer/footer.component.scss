@@ -1,0 +1,44 @@
+
+
+.footer__box {
+background-color: aqua;
+min-height: 500px;
+
+    display: grid;
+    justify-content: center;
+
+    margin-bottom: 10px;
+
+    grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
+
+    &::after {
+      position: absolute;
+      bottom: -5px;
+      left: calc(50% - 75px / 2);
+
+      width: 75px;
+      height: 2px;
+
+      content: "";
+
+      background-color: rgba(#ffff, 0.1);
+    }
+
+    a {
+      display: block;
+
+      padding: 5px;
+
+      transition: color 0.5s;
+
+      &:hover,
+      &:focus {
+        color: orange;
+      }
+    }
+
+    .fab {
+      font-size: 36px;
+    }
+  }
+
